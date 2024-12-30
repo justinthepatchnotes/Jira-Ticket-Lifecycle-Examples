@@ -1,78 +1,109 @@
 <p align="center">
-<img src="https://i.imgur.com/ygYqvUA.jpeg/800x300" height="40%" width="60%" alt="Jira SLA"/>
+<img src="https://i.imgur.com/ygYqvUA.jpeg/800x300" height="40%" width="60%" alt="Help Desk Ticket Lifecycle"/>
 </p>
 
-# Creating an SLA in Jira
+# Help Desk Ticket Lifecycle
 
 ## Prerequisites and Installation
 
-This tutorial outlines the prerequisites and installation steps for configuring an SLA (Service Level Agreement) in **Jira Service Management**.
+This tutorial outlines the prerequisites and installation steps for understanding the lifecycle of a help desk ticket.
 
+---
 
 ## Environments and Technologies Used
--  **Jira Service Management Cloud**
--  **Custom Workflows**
--  **JQL (Jira Query Language)**
+- **Jira Help Desk Service Management**
+- **Customer Support Teams**
+- **Ticket Management Systems**
 
+---
 
 ## Operating Systems Used
--  **Windows 11**
+- **Windows 11**
 
 ## List of Prerequisites
--  **A Jira Service Management project**
--  **Admin access to Jira**
--  **Defined SLA goals (response and resolution times)**
--  **Understanding of Jira workflows and JQL**
+- **Access to Help Desk Software**
+- **Admin or Support Role Access**
+- **Understanding of the Help Desk Process**
 
-## Installation Steps
+---
 
-### Step 1: Access SLA Configuration
-1. Log in to your Jira account.
-2. Navigate to your Service Management project.
-3. Go to **Project Settings > SLAs**.
-4. Click **SLAs**.
+## Lifecycle Steps
+
+### Step 1: Ticket Creation
+1. **Customer Request:**  
+   - A user (or customer) submits a ticket through various channels like email, phone, chat, or web portal.
+   - The ticket could involve an issue, request, or inquiry.
+2. **Ticket Logging:**  
+   - The help desk system logs the ticket with essential details like the user’s contact information, issue description, and priority.
+3. **Ticket Categorization:**  
+   - The ticket is categorized based on the issue type (e.g., technical support, billing issue, service request) to route the ticket to the correct team.
+
 &nbsp;
 
-![Add SLA Rule](https://i.imgur.com/jSBuMJR.png/600x300)
-![Configure SLA Goals](https://i.imgur.com/ZwNJfYi.png/600x300)
-![Configure SLA Goals](https://i.imgur.com/arfZl9V.png/600x300)
-
-### Step 2: Create a New SLA
-1. Create a **Name** for our SLA  `High Priority SLA` .
-2. Define time to first response.
-3. Set time target to 30 minutes.
-4. Set the start and stop conditions based on the workflow.
-&nbsp;
-![New SLA Name](https://i.imgur.com/BCVXZdk.png/600x300)
-![New SLA Page](https://i.imgur.com/MBjn9u1.png/600x300)
-![Add Rules](https://i.imgur.com/6VAoNgt.png/600x300)
+![Ticket Creation](https://i.imgur.com/UL6Sx75.png/600x300)
+![Ticket Creation](https://i.imgur.com/pftbBIO.png/600x300)
 
 
-   
+### Step 2: Ticket Triage
+1. **Ticket Prioritization:**  
+   - The help desk assigns a priority to the ticket based on predefined Service Level Agreements (SLAs) and issue severity.
+   - Critical issues affecting major systems are given higher priority.
+2. **Assigning the Ticket:**  
+   - The ticket is assigned to the appropriate technician or support agent who has the necessary skills or access to address the issue.
+3. **Initial Review:**  
+   - The assigned technician reviews the ticket and assesses the severity of the issue to determine next steps.
 
-### Step 4: Choose SLA Format Display
-1. Choose a format for hover states of this SLA to display. The format is effective on both issue and queue view.
-
-- **Due Date Centric:** Displays the exact due date and time (e.g., `Today 06:30 AM`, `Feb 24 11:00 AM`).
-- **Time Centric:** Displays the remaining time for the SLA (e.g., `7H 59M`, `-20H 46M`, `400H`).
-2. Click **Save**
 &nbsp;
 
-![Working Hours](https://i.imgur.com/UhE9no6.png/600x300)
+![Ticket Triage](https://i.imgur.com/gmOCszW.png/600x300)
+![Ticket Triage](https://i.imgur.com/rqwlVsb.png/600x300)
+![Ticket Triage](https://i.imgur.com/aEb0BlA.png/600x300)
+
+### Step 3: Ticket Investigation & Resolution
+1. **Diagnosis:**  
+   - The technician investigates the issue to understand the root cause. This may involve troubleshooting or gathering additional information.
+2. **Resolution & Fix:**  
+   - Once the issue is identified, the technician provides a solution or fix, such as applying software patches or reconfiguring settings.
+3. **Communication with the User:**  
+   - The technician communicates with the user, informing them about progress and solutions or requesting more information if needed.
+
+&nbsp;
+
+![Ticket Resolution](https://i.imgur.com/UZ33acR.png/600x300)
+![Ticket Resolution](https://i.imgur.com/JZyDVci.png/600x300)
+Ticket Resloved Or Can Be Reopened
+![Ticket Resolution](https://i.imgur.com/AXB3sXs.png/600x300)
 
 
->You’ve now configured an SLA in Jira! For more details, visit the [Atlassian Documentation](https://support.atlassian.com/jira-service-management-cloud/docs/configure-slas/).
 
+### Step 4: Ticket Testing (If Applicable)
+1. **Verification:**  
+   - After applying a solution, the technician verifies that the issue is resolved by testing and ensuring proper functionality.
+2. **User Confirmation:**  
+   - The technician may ask the user to confirm if the issue has been fully resolved to their satisfaction.
+
+&nbsp;
+
+![Ticket Testing](https://i.imgur.com/hdUNHw8.png/600x300)
+
+
+
+### Next Steps
+Once the ticket is resolved and verified, it proceeds to closure where the ticket is documented, feedback is gathered, and the ticket is officially closed.
+
+---
 
 ## FAQ
-**Q: Can I create multiple SLAs for one project?**  
-A: Yes, Jira allows you to create multiple SLAs with unique goals.
+**Q: How do I prioritize tickets effectively?**  
+A: Use SLA criteria and issue severity to prioritize tickets. Critical issues should be addressed first.
 
-**Q: How do I handle SLA breaches?**  
-A: Use Jira automation to notify team members or escalate tickets.
+**Q: What happens if the user isn’t satisfied with the solution?**  
+A: The issue may be reopened, and additional troubleshooting steps will be taken to ensure user satisfaction.
 
 ---
 
 ## Conclusion
-🎉 You’ve successfully set up SLAs in Jira Service Management to monitor and improve service performance! 🎉
+🎉 Congratulations! You’ve now gained an understanding of the first few crucial steps in the help desk ticket lifecycle.From ticket creation to resolution.🎉
+
+
 
