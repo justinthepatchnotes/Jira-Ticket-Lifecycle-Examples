@@ -40,7 +40,7 @@ This tutorial outlines the prerequisites and installation steps for understandin
 
 &nbsp;
 
-![Ticket Creation](https://i.imgur.com/UL6Sx75.png/600x300)
+![Ticket Creation](https://i.imgur.com/uPi5ifX.png/600x300)
 ![Ticket Creation](https://i.imgur.com/pftbBIO.png/600x300)
 
 
